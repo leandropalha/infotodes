@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos sociais e voluntariado da ONG Linux para Todos — Cursos gratuitos e ações de inclusão digital.">
+    <meta name="keywords" content="ONG, Linux, projetos sociais, voluntariado, doações, cursos gratuitos">
+    <meta name="author" content="ONG Linux para Todos">
+    <title>Projetos e Voluntariado | ONG Linux para Todos</title>
+
+    <link rel="icon" href="imagens/favicon.png" type="image/png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #222;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #00695c;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1rem;
+        }
+
+        nav a:hover {
+            background-color: #004d40;
+            border-radius: 4px;
+        }
+
+        main {
+            padding: 1.5rem;
+            background-color: white;
+            max-width: 900px;
+            margin: 1.5rem auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: #004d40;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+
+        .btn-doar {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-doar:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projetos Sociais e Voluntariado</h1>
+        <p>Conheça nossas ações e saiba como participar</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="projetos.html" aria-current="page">Projetos</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+
+    <main>
+        <section id="projetos">
+            <h2>Nossos Projetos</h2>
+            <p>A ONG Linux para Todos promove cursos gratuitos de informática com foco em software livre e Linux, voltados para jovens e adultos de comunidades carentes.</p>
+            <ul>
+                <li><strong>Curso de Introdução ao Linux:</strong> fundamentos do sistema operacional e comandos básicos.</li>
+                <li><strong>Montagem e Manutenção de Computadores:</strong> aulas práticas de hardware e diagnóstico.</li>
+                <li><strong>Programação para Iniciantes:</strong> lógica, Python e Shell Script.</li>
+                <li><strong>Inclusão Digital Sênior:</strong> oficinas de navegação, redes sociais e segurança digital.</li>
+            </ul>
+            <img src="imagens/projetos.jpg" alt="Alunos participando de curso de informática gratuito">
+        </section>
+
+        <section id="voluntariado">
+            <h2>Voluntariado</h2>
+            <p>Seja parte da transformação! Nossos voluntários ajudam a ministrar aulas, manter os laboratórios e orientar os alunos durante os cursos.</p>
+            <p>Ao se cadastrar, você poderá escolher entre diversas áreas de atuação: suporte técnico, ensino, comunicação e captação de recursos.</p>
+            <p><a href="cadastro.html" class="btn-doar">Quero ser voluntário</a></p>
+            <img src="imagens/voluntarios.jpg" alt="Grupo de voluntários colaborando em oficina de informática">
+        </section>
+
+        <section id="doacoes">
+            <h2>Como Doar</h2>
+            <p>As doações ajudam a manter os cursos gratuitos e a infraestrutura da ONG. Toda contribuição é bem-vinda e registrada com transparência.</p>
+            <ul>
+                <li>💳 <strong>Doação Online:</strong> via Pix ou cartão de crédito.</li>
+                <li>💻 <strong>Doação de Equipamentos:</strong> computadores e periféricos usados em bom estado.</li>
+                <li>📦 <strong>Parcerias Institucionais:</strong> empresas que apoiam financeiramente ou com infraestrutura.</li>
+            </ul>
+            <p><a href="#" class="btn-doar">Fazer uma Doação</a></p>
+            <img src="imagens/doacoes.jpg" alt="Pessoa realizando doação de computador para a ONG">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ONG Linux para Todos — Transparência e inclusão digital.</p>
+    </footer>
+</body>
+</html>
